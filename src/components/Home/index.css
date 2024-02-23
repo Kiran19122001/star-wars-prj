@@ -1,7 +1,7 @@
 .card-item {
     list-style: none;
     width: 20%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .main-container {
@@ -66,11 +66,17 @@
 
 @media screen and (min-width:320px) and (max-width:450px) {
     .card-item {
-        width: 100%;
+        width: 85vw;
+        display: flex;
+        justify-content: center;
+        justify-self: center !important;
     }
+
 
     .card-container {
         width: 16rem;
     }
+
+
 
 }
