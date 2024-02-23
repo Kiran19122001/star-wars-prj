@@ -1,0 +1,39 @@
+.resident-parent-container {
+    background-color: #10112e;
+    color: #fff;
+}
+
+.text-field {
+    font-size: 17px;
+    font-weight: 550;
+}
+
+
+
+.loader-container {
+    height: 100vh;
+}
+
+.recident-card {
+    width: 18rem;
+    margin-bottom: 20px;
+    width: 30vw !important;
+    box-shadow: 0px 0px 15px 5px rgba(0, 200, 255, 0.5);
+}
+
+.no-residents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+@media screen and (min-width:320px) and (max-width:450px) {
+    .recident-card {
+        width: 80vw !important;
+    }
+}
